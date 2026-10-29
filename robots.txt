@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://AneleTshude5.github.io/Hair-by-Mandie-Part3/sitemap.xml
