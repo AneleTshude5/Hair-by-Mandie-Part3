@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- 2.2 & 3.1 - Meta tags for charset and responsive design -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 2.2 - External stylesheet link for base styles -->
+    <link rel="stylesheet" href="style.css">
+    <title>Hair by Mandie - Services</title>
+</head>
+<body>
+    <!-- 2.4 Layout - Header using Flexbox -->
+    <header>
+        <h1>Hair by Mandie</h1>
+        <!-- Navigation menu - Flexbox via ul -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main content area -->
+    <main>
+        <h2>Our Services</h2>
+        <p>Professional hair services tailored for you</p>
+        
+        <!-- Services Grid - Uses CSS Grid from style.css -->
+        <div class="gallery">
+            <div class="gallery-item">
+                <!-- 3.3 Responsive image -->
+                <img src="images/braid1.jpg" srcset="images/braid1.jpg 480w, images/braid1.jpg 800w" sizes="(max-width: 768px) 100vw, 33vw" alt="Braids Service">
+                <h3>Braids</h3>
+                <p>Knotless, Boho, Box braids - From R350</p>
+            </div>
+            <div class="gallery-item">
+                <img src="images/wig1.jpg" srcset="images/wig1.jpg 480w, images/wig1.jpg 800w" sizes="(max-width: 768px) 100vw, 33vw" alt="Wig Installation">
+                <h3>Wig Installation</h3>
+                <p>Custom wig fitting & styling - From R250</p>
+            </div>
+            <div class="gallery-item">
+                <img src="images/wig2.jpg" srcset="images/wig2.jpg 480w, images/wig2.jpg 800w" sizes="(max-width: 768px) 100vw, 33vw" alt="Hair Treatment">
+                <h3>Hair Treatment</h3>
+                <p>Deep conditioning & treatments - From R150</p>
+            </div>
+        </div>
+
+        <!-- 2.5 Visual style - button with hover effect -->
+        <a href="enquiry.html" class="btn">Book Now</a>
+    </main>
+
+    <!-- Footer section -->
+    <footer>
+        <p>&copy; 2025 Hair by Mandie - Durban, KZN</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- 2.2 & 3.1 - Meta tags for charset and responsive design -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 2.2 - External stylesheet link -->
+    <link rel="stylesheet" href="style.css">
+    <title>Hair by Mandie - Enquiry</title>
+</head>
+<body>
+    <!-- 2.4 Layout - Header using Flexbox -->
+    <header>
+        <h1>Hair by Mandie</h1>
+        <!-- Navigation - Flexbox via ul -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Enquiry / Book Appointment</h2>
+        <p>Fill in the form below to book your hair appointment</p>
+
+        <!-- Enquiry Form -->
+        <form style="max-width: 600px; background: white; padding: 2rem; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+            <!-- Name field -->
+            <label for="name"><strong>Full Name:</strong></label><br>
+            <input type="text" id="name" name="name" required style="width: 100%; padding: 0.8em; margin: 0.5em 0 1em 0; border: 1px solid #ccc; border-radius: 5px;"><br>
+
+            <!-- Email field -->
+            <label for="email"><strong>Email:</strong></label><br>
+            <input type="email" id="email" name="email" required style="width: 100%; padding: 0.8em; margin: 0.5em 0 1em 0; border: 1px solid #ccc; border-radius: 5px;"><br>
+
+            <!-- Service selection -->
+            <label for="service"><strong>Service Required:</strong></label><br>
+            <select id="service" name="service" style="width: 100%; padding: 0.8em; margin: 0.5em 0 1em 0; border-radius: 5px;">
+                <option>Boho Braids</option>
+                <option>Knotless Braids</option>
+                <option>Wig Installation</option>
+                <option>Hair Treatment</option>
+            </select><br>
+
+            <!-- Message field -->
+            <label for="message"><strong>Message:</strong></label><br>
+            <textarea id="message" name="message" rows="4" style="width: 100%; padding: 0.8em; margin: 0.5em 0 1em 0; border: 1px solid #ccc; border-radius: 5px;"></textarea><br>
+
+            <!-- 2.5 Button with hover effect -->
+            <button type="submit" class="btn" style="border: none; cursor: pointer;">Submit Enquiry</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Hair by Mandie - Durban, KZN</p>
+    </footer>
+</body>
+</html>

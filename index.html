@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- 2.2 & 3.1 - Meta tags for charset and responsive design -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 2.2 - External stylesheet link for base styles -->
+    <link rel="stylesheet" href="style.css">
+    <title>Hair by Mandie - Home</title>
+</head>
+<body>
+    <!-- 2.4 Layout - Header using Flexbox -->
+    <header>
+        <h1>Hair by Mandie</h1>
+        <!-- Navigation menu - Flexbox via ul -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main content area -->
+    <main>
+        <h2>Welcome to Hair by Mandie</h2>
+        <p>Professional braids and wigs in Durban - Beautiful styles for every occasion</p>
+        
+        <!-- 3.3 Responsive image with srcset -->
+        <img src="images/hero.jpg" 
+             srcset="images/hero.jpg 480w, images/hero.jpg 800w"
+             sizes="(max-width: 768px) 100vw, 50vw"
+             alt="Hair by Mandie Hero Image">
+        
+        <!-- 2.5 Visual style - button with hover effect -->
+        <a href="gallery.html" class="btn">View Our Gallery</a>
+        <a href="services.html" class="btn">Our Services</a>
+    </main>
+
+    <!-- Footer section -->
+    <footer>
+        <p>&copy; 2025 Hair by Mandie - Durban, KZN</p>
+    </footer>
+</body>
+</html>
